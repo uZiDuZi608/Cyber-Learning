@@ -17,4 +17,4 @@ for symbol in range(no_symbols):
     my_list.append(random.choice(symbols))
 random.shuffle(my_list)
 password=''.join(my_list)
-print(password)
+print(f"yor password is {password}")
